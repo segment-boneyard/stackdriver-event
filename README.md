@@ -63,7 +63,7 @@ $ npm install stackdriver-event
   - instance_id
   - event_epoch
 
-For more info, see [StackDriver Docs](http://feedback.stackdriver.com/knowledgebase/articles/260455-sending-annotation-events-to-stackdriver)
+For more information, see the [StackDriver Docs](http://feedback.stackdriver.com/knowledgebase/articles/260455-sending-annotation-events-to-stackdriver).
 
 ### #deploy(data|revision_id, fn)
 
@@ -74,7 +74,7 @@ For more info, see [StackDriver Docs](http://feedback.stackdriver.com/knowledgeb
   - deployed_to
   - repository
 
-For more info, see [StackDriver Docs](http://feedback.stackdriver.com/knowledgebase/articles/260455-sending-annotation-events-to-stackdriver)
+For more information, see the [StackDriver Docs](http://feedback.stackdriver.com/knowledgebase/articles/212917-sending-code-deploy-events-to-stackdriver).
 
 ## License
 
