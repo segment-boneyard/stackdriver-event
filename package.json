@@ -1,0 +1,10 @@
+{
+  "name": "stackdriver-event",
+  "description": "Submit annotation and deploy events to StackDriver",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "segmentio/stackdriver-event",
+  "dependencies": {
+    "superagent": "^0.17.0"
+  }
+}
