@@ -21,6 +21,7 @@ module.exports = Event;
  */
 
 function Event(key){
+  if (!(this instanceof Event)) return new Event(key);
   assert(key, 'key required');
   this.key = key;
 }
