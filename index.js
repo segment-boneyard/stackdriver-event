@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -37,6 +36,7 @@ function Event(key){
 Event.prototype.annotation =
 Event.prototype.annotate = function(data, fn){
   if ('object' != typeof data) data = { message: data };
+  fn = fn || function(){};
   assert(data, 'data required');
   assert(data.message, '.message required');
 
@@ -61,6 +61,7 @@ Event.prototype.annotate = function(data, fn){
 
 Event.prototype.deploy = function(data, fn){
   if ('object' != typeof data) data = { revision_id: data };
+  fn = fn || function(){};
   assert(data, 'data required');
   assert(data.revision_id, '.revision_id required');
 
